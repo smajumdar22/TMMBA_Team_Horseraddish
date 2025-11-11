@@ -1,0 +1,8 @@
+<aside class="sidebar">
+  <h3>Team Members</h3>
+  <ul>
+    <li *ngFor="let member of team" (click)="selectMember(member)">
+      {{ member.name }}
+    </li>
+  </ul>
+</aside>

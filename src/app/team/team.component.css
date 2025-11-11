@@ -1,0 +1,32 @@
+.sidebar {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+.sidebar h3 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar li {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.sidebar li:hover {
+  background-color: #fff;
+  color: #4b0082;
+  transform: scale(1.05);
+}
